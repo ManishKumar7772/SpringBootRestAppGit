@@ -8,10 +8,8 @@ public class Message implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-         
-		System.out.println("Manish Kumar Welcome to Git");
-		
-		System.out.println(" Modification done");
+         int i=10;
+         System.out.println("I value :"+i);
 	}
 
 }
